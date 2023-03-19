@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    
+}
+
+.title-bar{
+    height: 5vh;
+    background-color: rgb(16,124,65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.menu-bar{
+    height: 5vh;
+    background-color: rgb(16,124,65);
+    display: flex;
+}
+
+.menu-item{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 18;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item.selected{
+    background-color: #fff;
+    color: rgb(16,124,65);
+}
+
+.menu-item:hover{
+    background-color: rgb(5, 98, 47);
+    cursor: pointer;
+}
+
+.menu-item.selected:hover{
+    background-color: #fff;
+    cursor: default;
+}
+
+.menu-icon-bar{
+    height: 6vh;
+    display: flex;
+    background-color: rgb(239, 238, 238);
+    align-items: center;
+}
+
+.menu-icon{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.font-family-selector{
+    width: 150px;
+}
+
+.selector{
+    height: 30px;
+    font-size: 16px;
+}
+
+.selector option{
+    font-size: 16px;
+}
+
+.formula-bar{
+    height: 5vh;
+    padding: 0 0.7rem 0 0.7rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(239, 238, 238);
+}
+
+.formula-editor{
+    height: 70%;
+    border: 1px solid lightgray;
+    outline-color: rgb(16,124,65);
+    background-color: #fff;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    display: flex;
+    align-items: center;
+}
+
+.selected-cell{
+    width: 140px;
+}
+
+.function-sign{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formula-input{
+    width: calc(100vw - 180px);
+}
+
+.data-container{
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.select-all{
+    height: 30px;
+    width: 30px;
+    border: 1px solid lightgray;
+}
+
+.column-name-container{
+    width: calc(100vw - 30px);
+    height: 30px;
+    border: 1px solid lightgray;
+    display: flex;
+    overflow: hidden;
+}
+
+.column-name{
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid lightgray;
+    font-weight: bold;
+}
+
+.row-name-container{
+    height: calc(75vh - 30px);
+    width: 30px;
+    border: 1px solid lightgray;
+    overflow: hidden;
+}
+
+.row-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25px;
+    border-bottom: 1px solid lightgray;
+}
+
+.input-cell-container{
+    height: calc(75vh - 30px);
+    width: calc(100vw - 30px);
+    border: 1px solid lightgray;
+    overflow: scroll;
+}
+
+.cell-row{
+    display: flex;
+}
+
+.input-cell{
+    min-width: 100px;
+    min-height: 25px;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    outline-color: rgb(16,124,65);
+}
+
+.input-cell.selected{
+    border: 2px solid rgb(16,124,65);
+}
+
+.sheet-bar{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+
+.scroller{
+    width: 70px;
+}
+
+.icon-left-scroll,.icon-right-scroll{
+    font-size: 30px;
+}
+
+.icon-left-scroll:hover,.icon-right-scroll:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.icon-add{
+    color: rgb(5, 98, 47);
+    width: 40px;
+}
+
+.icon-add:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.sheet-tab{
+    border-bottom: 4px solid rgb(5, 98, 47);
+    padding: 0 10px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    font-weight: 600;
+    border-right: 1px solid lightgray;
+}
+
+.sheet-tab:hover{
+    cursor: default;
+}
+
+.sheet-tab-container{
+    border: 1px solid lightgray;
+    width: calc(100vw - 110px);
+
+}
+
+.menu-icon.selected{
+    background-color: lightgray;
+}
+
+.style-icon.selected{
+    background-color: lightgray;
+}
+
+.input-cell.top-cell-selected{
+    border-top: none;
+}
+
+.input-cell.bottom-cell-selected{
+    border-bottom: 1px solid lightgray;
+}
+
+.input-cell.left-cell-selected{
+    border-left: none;
+}
+
+.input-cell.right-cell-selected{
+    border-right: 1px solid lightgray;
+}
