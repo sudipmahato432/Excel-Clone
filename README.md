@@ -1,6 +1,6 @@
 # Excel Clone
 
-[![GitHub license](https://img.shields.io/github/license/sudipmahato432/Excel-Clone)](https://github.com/sudipmahato432/Excel-Clone/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/sudipmahato432/Excel-Clone)](https://github.com/sudipmahato432/Excel-Clone/blob/master/LICENSE)
 
 ## Description
 
@@ -47,7 +47,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, f
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/sudipmahato432/Excel-Clone/blob/main/LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/sudipmahato432/Excel-Clone/blob/master/LICENSE) file for more details.
 
 ## Acknowledgments
 
